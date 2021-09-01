@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Profile & Loss Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Stock Profile & Loss Calculator</h1>
+    </header>
+    <main>
+      <label class="input-label" for="initial-price">
+        Intial Price
+        <input
+          class="input"
+          type="text"
+          id="initial-price"
+          placeholder="Enter Initial Price Here"
+      /></label>
+      <label class="input-label" for="stocks-quantity">
+        Quantity of Stocks
+        <input
+          class="input"
+          type="text"
+          id="stocks-quantity"
+          placeholder="Enter the Number of Stocks bought"
+        />
+      </label>
+      <label class="input-label" for="current-price"
+        >Current Price
+        <input
+          class="input"
+          type="text"
+          id="current-price"
+          placeholder="Enter the Current Price of the stocks"
+      /></label>
+
+      <button id="submit-btn" class="btn-check">Tell Me!!</button>
+
+      <div id="output-box" class="output"></div>
+    </main>
+    <footer class="footer">
+      <div class="foot">
+        <ul class="lists">
+          <a
+            href="https://www.linkedin.com/in/prakash-agrahari-a5655312b/"
+            target="#"
+          >
+            <li>
+              <img class="list" src="/images/linkedin.gif" alt="" />
+            </li>
+          </a>
+          <a href="https://github.com/prakash855" target="#">
+            <li>
+              <img class="list" src="/images/github.gif" alt="" />
+            </li>
+          </a>
+          <a href="https://twitter.com/PrakashAgrahar3" target="#">
+            <li>
+              <img class="list" src="/images/twitter.gif" alt="" />
+            </li>
+          </a>
+          <a href="https://prakash855.medium.com/" target="#">
+            <li>
+              <img
+                style="background: white"
+                class="list"
+                src="/images/medium.png"
+                alt=""
+              />
+            </li>
+          </a>
+        </ul>
+        <p class="intro">
+          &nbsp;<img
+            style="width: 1.2rem"
+            src="/images/code.png"
+            alt=""
+          />&nbsp; WITH &nbsp;<img
+            style="width: 1.2rem"
+            src="/images/heart.gif"
+            alt=""
+          />&nbsp; BY PRAKASH
+        </p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
